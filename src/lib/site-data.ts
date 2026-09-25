@@ -27,7 +27,7 @@ export const images = {
   kitchen: "/kichen.jpeg",
   bathroom: "/bathroom.jpeg",
   living: "/livingroom.jpeg",
-  outdoorRoom: "/chill.jpeg", "/sunset.jpeg",
+  outdoorRoom: "/sunset.jpeg",
   gallery: [
     { src: hero, category: "Pool", alt: { en: "Private pool overlooking the Evian Gulf", el: "Η ιδιωτική πισίνα με θέα στον Ευβοϊκό" } },
     { src: garden, category: "Garden", alt: { en: "Shaded dining in the Mediterranean garden", el: "Σκιερή τραπεζαρία στον μεσογειακό κήπο" } },
@@ -37,8 +37,7 @@ export const images = {
     { src: bathroom,category: "Interior", alt: { en: "Clean bathroom", el: "Καθαρό μπάνιο" } },
     { src: living, category: "Interior", alt: { en: "Living room ", el: "Καθιστικό " } },
     { src: outdoorRoom, category: "Views", alt: { en: "Separate garden room at sunset", el: "Το ανεξάρτητο δωμάτιο στο ηλιοβασίλεμα" } },
-    { src: hosts, category: "Garden", alt: { en: "Your hosts, Tony and Giota", el: "Οι οικοδεσπότες σας, ο Τόνι και η Γιώτα" } },
-  ],
+   ],
 };
 
 export const copy = {
