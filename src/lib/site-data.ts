@@ -1,19 +1,19 @@
-import hero from "@/assets/giotas-pool-hero.jpg";
-import garden from "@/assets/giotas-garden.jpg";
-import bedroom from "@/assets/giotas-bedroom.jpg";
-import living from "@/assets/giotas-living.jpg";
-import outdoorRoom from "@/assets/giotas-outdoor-room.jpg";
-import hosts from "@/assets/giotas-hosts.jpg";
+import hero from "@/assets/pool1.jpeg";
+import garden from "@/assets/pool.jpeg";
+import bedroom 1 from "@/assets/bedroom1.jpeg";
+import bedroom 2 from "@assets/bedroom2.jpeg";
+import living from "@/assets/livingroom.jpeg";
+import outdoorRoom from "@/assets/chill.jpeg";"@assets/sunset.jpeg";
+import kitchen from "@/assets/kichen.jpeg";
+import bathroom from "@/assets/bathroom.jpeg";
 
 export type Locale = "en" | "el";
 export type Localized = { en: string; el: string };
 
 export const siteConfig = {
-  airbnbUrl: "[AIRBNB_LISTING_URL]",
+  airbnbUrl: "[https://www.airbnb.gr/s/homes?c=.pi0.pk273496144_131023145409&sem_automaid=true&gad_source=1&gad_campaignid=273496144&gbraid=0AAAAADz55LlP9ZiGTuQFeB3P4KJD7tSf6&gclid=Cj0KCQjwt9jVBhDXARIsAFSP-6dZcfL50m1smVU2OISyJFfvyFr19GSVsyihYCVwHzYTIgnBnTYcerEaAsM_EALw_wcB&dynamic_product_ids%5B%5D=20017438&omni_page_id=27964",
   instagramUrl: "#",
-  phone: "[PHONE]",
-  email: "[HOST_EMAIL]",
-  nightlyFrom: null as number | null,
+  phone: "[6970052618]",
   registryNumber: "00002419157",
   mapUrl:
     "https://www.openstreetmap.org/export/embed.html?bbox=23.88%2C38.20%2C24.02%2C38.30&layer=mapnik&marker=38.2236%2C23.9236",
@@ -22,14 +22,16 @@ export const siteConfig = {
 export const images = {
   hero,
   garden,
-  bedroom,
+  bedroom 1,
+  bedroom 2,
+  kitchen,
+  bathroom,
   living,
   outdoorRoom,
-  hosts,
   gallery: [
     { src: hero, category: "Pool", alt: { en: "Private pool overlooking the Evian Gulf", el: "Η ιδιωτική πισίνα με θέα στον Ευβοϊκό" } },
     { src: garden, category: "Garden", alt: { en: "Shaded dining in the Mediterranean garden", el: "Σκιερή τραπεζαρία στον μεσογειακό κήπο" } },
-    { src: bedroom, category: "Interior", alt: { en: "Sunlit main bedroom", el: "Το φωτεινό κύριο υπνοδωμάτιο" } },
+    { src: bedroom 1,category: "Interior", alt: { en: "Sunlit main bedroom", el: "Το φωτεινό κύριο υπνοδωμάτιο" } },
     { src: living, category: "Interior", alt: { en: "Living room and equipped kitchen", el: "Καθιστικό και εξοπλισμένη κουζίνα" } },
     { src: outdoorRoom, category: "Views", alt: { en: "Separate garden room at sunset", el: "Το ανεξάρτητο δωμάτιο στο ηλιοβασίλεμα" } },
     { src: hosts, category: "Garden", alt: { en: "Your hosts, Tony and Giota", el: "Οι οικοδεσπότες σας, ο Τόνι και η Γιώτα" } },
@@ -153,7 +155,7 @@ export const copy = {
     aboutKicker: "Η ιστορία μας", aboutTitle: "Ένα οικογενειακό καταφύγιο με προσωπική φροντίδα",
     aboutBody: "Το Εξοχικό σπίτι Giotas δημιουργήθηκε για ανέμελες οικογενειακές μέρες. Είναι ιδανικό για οικογένεια με έως τρία παιδιά, με άπλετο χώρο για παιχνίδι, ησυχία και μια μεγάλη πισίνα αποκλειστικά για εσάς.",
     aboutBody2: "Ο Τόνι (Αντώνης) και η Γιώτα μένουν στο σπίτι πάνω από τον ξενώνα. Είναι κοντά όταν τους χρειαστείτε—για μια καλή ταβέρνα ή την παραμικρή βοήθεια—και ταυτόχρονα σέβονται απόλυτα την ιδιωτικότητά σας.",
-    hosts: "Τόνι & Γιώτα", hostsNote: "Μιλούν Ελληνικά & Αγγλικά · Απαντούν μέσα σε μία ώρα",
+    hosts: "Τόνι & Γιώτα", hostsNote: "Μιλούν Ελληνικά & Αγγλικά · Απαντούν άμεσα",
     spaceKicker: "Πού θα κοιμηθείτε", spaceTitle: "Απλοί, άνετοι χώροι για ξέγνοιαστες μέρες",
     rooms: [["Κύριο υπνοδωμάτιο", "Διπλό κρεβάτι · κλιματισμός · TV", "Ένα ήρεμο δωμάτιο με χειροποίητη μοντέρνα συρταριέρα και απαλό φως από τον κήπο."], ["Καθιστικό", "Διπλό κρεβάτι · διπλός καναπές-κρεβάτι · κουζίνα", "Ένας ευέλικτος οικογενειακός χώρος δίπλα στην πλήρως εξοπλισμένη κουζίνα."], ["Ανεξάρτητο εξωτερικό δωμάτιο", "Διπλό κρεβάτι", "Ένα ξεχωριστό δωμάτιο που ανοίγει απευθείας στον ήσυχο κήπο."]],
     essentials: "Επίσης: 1 μπάνιο · HDTV 32 ιντσών · πλήρως εξοπλισμένη κουζίνα",
