@@ -31,8 +31,11 @@ export const images = {
   gallery: [
     { src: hero, category: "Pool", alt: { en: "Private pool overlooking the Evian Gulf", el: "Η ιδιωτική πισίνα με θέα στον Ευβοϊκό" } },
     { src: garden, category: "Garden", alt: { en: "Shaded dining in the Mediterranean garden", el: "Σκιερή τραπεζαρία στον μεσογειακό κήπο" } },
-    { src: bedroom 1,category: "Interior", alt: { en: "Sunlit main bedroom", el: "Το φωτεινό κύριο υπνοδωμάτιο" } },
-    { src: living, category: "Interior", alt: { en: "Living room and equipped kitchen", el: "Καθιστικό και εξοπλισμένη κουζίνα" } },
+    { src: bedroom1,category: "Interior", alt: { en: "Sunlit main bedroom", el: "Το φωτεινό κύριο υπνοδωμάτιο" } },
+    { src: bedroom2,category: "Interior", alt: { en: "Second cozy bedroom", el: "Το δεύτερο άνετο υπνοδωμάτιο" } }, 
+    { src: kitchen,category: "Interior", alt: { en: "Equipped kitchen", el: " Εξοπλισμένη κουζίνα" } },
+    { src: bathroom,category: "Interior", alt: { en: "Clean bathroom", el: "Καθαρό μπάνιο" } },
+    { src: living, category: "Interior", alt: { en: "Living room ", el: "Καθιστικό " } },
     { src: outdoorRoom, category: "Views", alt: { en: "Separate garden room at sunset", el: "Το ανεξάρτητο δωμάτιο στο ηλιοβασίλεμα" } },
     { src: hosts, category: "Garden", alt: { en: "Your hosts, Tony and Giota", el: "Οι οικοδεσπότες σας, ο Τόνι και η Γιώτα" } },
   ],
