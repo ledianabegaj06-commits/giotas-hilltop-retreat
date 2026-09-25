@@ -1,44 +1,40 @@
-import hero from "@/assets/pool1.jpeg";
-import garden from "@/assets/pool.jpeg";
-import bedroom1 from "@/assets/bedroom1.jpeg";
-import bedroom2 from "@assets/bedroom2.jpeg";
-import living from "@/assets/livingroom.jpeg";
-import outdoorRoom from "@/assets/chill.jpeg";"@assets/sunset.jpeg";
-import kitchen from "@/assets/kichen.jpeg";
-import bathroom from "@/assets/bathroom.jpeg";
+import type { Locale, Localized } from "./types";
 
-export type Locale = "en" | "el";
-export type Localized = { en: string; el: string };
+export type { Locale, Localized };
 
 export const siteConfig = {
-  airbnbUrl: "[https://www.airbnb.gr/s/homes?c=.pi0.pk273496144_131023145409&sem_automaid=true&gad_source=1&gad_campaignid=273496144&gbraid=0AAAAADz55LlP9ZiGTuQFeB3P4KJD7tSf6&gclid=Cj0KCQjwt9jVBhDXARIsAFSP-6dZcfL50m1smVU2OISyJFfvyFr19GSVsyihYCVwHzYTIgnBnTYcerEaAsM_EALw_wcB&dynamic_product_ids%5B%5D=20017438&omni_page_id=27964",
-  instagramUrl: "#",
-  phone: "[6970052618]",
-  registryNumber: "00002419157",
-  mapUrl:
-    "https://www.openstreetmap.org/export/embed.html?bbox=23.88%2C38.20%2C24.02%2C38.30&layer=mapnik&marker=38.2236%2C23.9236",
+airbnbUrl: "https://www.airbnb.gr/s/homes?c=.pi0.pk273496144_131023145409&sem_automaid=true&gad_source=1&gad_campaignid=273496144&gbraid=0AAAAADz55L1P9ZiGTuQFeB3P4KJ07t",
+instagramUrl: "#",
+phone: "[6970052618]",
+registryNumber: "00002419157",
+mapUrl:
+"https://www.openstreetmap.org/export/embed.html?bbox=23.88%2C38.20%2C24.02%2C38.30&layer=mapnik&marker=38.2236%2C23.9236",
 };
 
 export const images = {
-  hero: "/pool1.jpeg",
-  garden: "/poοl.jpeg",
-  bedroom1: "/bedroom1.jpeg",
-  bedroom2: "/bedroom2.jpeg",
-  kitchen: "/kichen.jpeg",
-  bathroom: "/bathroom.jpeg",
-  living: "/livingroom.jpeg",
-  outdoorRoom: "/sunset.jpeg",
-  gallery: [
-    { src: hero, category: "Pool", alt: { en: "Private pool overlooking the Evian Gulf", el: "Η ιδιωτική πισίνα με θέα στον Ευβοϊκό" } },
-    { src: garden, category: "Garden", alt: { en: "Shaded dining in the Mediterranean garden", el: "Σκιερή τραπεζαρία στον μεσογειακό κήπο" } },
-    { src: bedroom1,category: "Interior", alt: { en: "Sunlit main bedroom", el: "Το φωτεινό κύριο υπνοδωμάτιο" } },
-    { src: bedroom2,category: "Interior", alt: { en: "Second cozy bedroom", el: "Το δεύτερο άνετο υπνοδωμάτιο" } }, 
-    { src: kitchen,category: "Interior", alt: { en: "Equipped kitchen", el: " Εξοπλισμένη κουζίνα" } },
-    { src: bathroom,category: "Interior", alt: { en: "Clean bathroom", el: "Καθαρό μπάνιο" } },
-    { src: living, category: "Interior", alt: { en: "Living room ", el: "Καθιστικό " } },
-    { src: outdoorRoom, category: "Views", alt: { en: "Separate garden room at sunset", el: "Το ανεξάρτητο δωμάτιο στο ηλιοβασίλεμα" } },
-   ],
+hero: "/pool1.jpeg",
+garden: "/pool.jpeg",
+bedroom1: "/bedroom1.jpeg",
+bedroom2: "/bedroom2.jpeg",
+kitchen: "/kichen.jpeg",
+bathroom: "/bathroom.jpeg",
+living: "/livingroom.jpeg",
+outdoorRoom: "/sunset.jpeg",
 };
+
+export const gallery = [
+{ src: images.hero, category: "Pool", alt: { en: "Private pool overlooking the Evian Gulf", el: "Η ιδιωτική πισίνα με θέα στον Ευβοϊκό" } },
+{ src: images.garden, category: "Garden", alt: { en: "Shaded dining in the Mediterranean garden", el: "Σκιερή τραπεζαρία στον μεσογειακό κήπο" } },
+{ src: images.bedroom1, category: "Interior", alt: { en: "Sunlit main bedroom", el: "Το φωτεινό κύριο υπνοδωμάτιο" } },
+{ src: images.bedroom2, category: "Interior", alt: { en: "Second cozy bedroom", el: "Το δεύτερο άνετο υπνοδωμάτιο" } },
+{ src: images.kitchen, category: "Interior", alt: { en: "Equipped kitchen", el: "Εξοπλισμένη κουζίνα" } },
+{ src: images.bathroom, category: "Interior", alt: { en: "Clean bathroom", el: "Καθαρό μπάνιο" } },
+{ src: images.living, category: "Interior", alt: { en: "Living room", el: "Καθιστικό" } },
+{ src: images.outdoorRoom, category: "Views", alt: { en: "Separate garden room at sunset", el: "Το ανεξάρτητο δωμάτιο στο ηλιοβασίλεμα" } },
+]; 
+
+
+
 
 export const copy = {
   en: {
