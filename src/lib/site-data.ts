@@ -1,7 +1,7 @@
 import hero from "@/assets/pool1.jpeg";
 import garden from "@/assets/pool.jpeg";
-import bedroom 1 from "@/assets/bedroom1.jpeg";
-import bedroom 2 from "@assets/bedroom2.jpeg";
+import bedroom1 from "@/assets/bedroom1.jpeg";
+import bedroom2 from "@assets/bedroom2.jpeg";
 import living from "@/assets/livingroom.jpeg";
 import outdoorRoom from "@/assets/chill.jpeg";"@assets/sunset.jpeg";
 import kitchen from "@/assets/kichen.jpeg";
@@ -20,14 +20,14 @@ export const siteConfig = {
 };
 
 export const images = {
-  hero,
-  garden,
-  bedroom 1,
-  bedroom 2,
-  kitchen,
-  bathroom,
-  living,
-  outdoorRoom,
+  hero: "/pool1.jpeg",
+  garden: "/poll.jpeg",
+  bedroom1: "/bedroom1.jpeg",
+  bedroom2: "/bedroom2.jpeg",
+  kitchen: "/kichen.jpeg",
+  bathroom: "/bathroom.jpeg",
+  living: "/livingroom.jpeg",
+  outdoorRoom: "/chill.jpeg", "/sunset.jpeg",
   gallery: [
     { src: hero, category: "Pool", alt: { en: "Private pool overlooking the Evian Gulf", el: "Η ιδιωτική πισίνα με θέα στον Ευβοϊκό" } },
     { src: garden, category: "Garden", alt: { en: "Shaded dining in the Mediterranean garden", el: "Σκιερή τραπεζαρία στον μεσογειακό κήπο" } },
