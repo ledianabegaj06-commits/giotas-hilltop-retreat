@@ -21,7 +21,7 @@ export const siteConfig = {
 
 export const images = {
   hero: "/pool1.jpeg",
-  garden: "/poll.jpeg",
+  garden: "/poοl.jpeg",
   bedroom1: "/bedroom1.jpeg",
   bedroom2: "/bedroom2.jpeg",
   kitchen: "/kichen.jpeg",
