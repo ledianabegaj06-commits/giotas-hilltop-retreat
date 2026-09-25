@@ -31,7 +31,8 @@ export const gallery = [
 { src: images.bathroom, category: "Interior", alt: { en: "Clean bathroom", el: "Καθαρό μπάνιο" } },
 { src: images.living, category: "Interior", alt: { en: "Living room", el: "Καθιστικό" } },
 { src: images.outdoorRoom, category: "Views", alt: { en: "Separate garden room at sunset", el: "Το ανεξάρτητο δωμάτιο στο ηλιοβασίλεμα" } },
-]; 
+];
+
 
 
 
