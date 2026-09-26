@@ -12,12 +12,12 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { supabase } from "@/integrations/supabase/client";
-import { copy, images, siteConfig, type Locale } from "@/lib/site-data";
+import { copy, images, gallery, siteConfig, type Locale } from "@/lib/site-data";
 
 const ids = ["story", "space", "pool", "gallery", "location", "reviews", "faq"];
 const factIcons = [Users, BedDouble, Waves, Eye, PawPrint, CircleParking, Wifi, AirVent];
 const amenityIcons = [Trees, Coffee, Wind, ShieldAlert];
-const roomImages = [images.bedroom, images.living, images.outdoorRoom];
+const roomImages = [images.bedroom1, images.living, images.outdoorRoom];
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -99,7 +99,7 @@ function HomePage() {
 
       <section className="border-y border-border bg-primary py-7 text-primary-foreground"><div className="section-shell grid grid-cols-2 gap-y-8 sm:grid-cols-4 lg:grid-cols-8">{t.facts.map((fact, i) => { const Icon = factIcons[i] ?? House; return <div key={fact} className="flex flex-col items-center gap-2 text-center text-xs"><Icon className="size-5 text-accent"/><span>{fact}</span></div>; })}</div></section>
 
-      <Section id="story" kicker={t.aboutKicker} title={t.aboutTitle}><div className="grid items-center gap-10 lg:grid-cols-[1.05fr_.95fr]"><Reveal><div><p className="text-lg leading-8">{t.aboutBody}</p><p className="mt-5 leading-7 text-muted-foreground">{t.aboutBody2}</p><div className="mt-8 flex items-center gap-4 border-t border-border pt-6"><img src={images.hosts} alt="Tony and Giota" width={1200} height={900} loading="lazy" className="size-20 rounded-full object-cover"/><div><h3 className="text-xl">{t.hosts}</h3><p className="mt-1 text-sm text-muted-foreground">{t.hostsNote}</p></div></div></div></Reveal><Reveal><img src={images.garden} alt={locale === "el" ? "Μεσογειακός κήπος" : "Mediterranean garden"} width={1200} height={900} loading="lazy" className="image-soft aspect-[4/3] w-full object-cover"/></Reveal></div></Section>
+      <Section id="story" kicker={t.aboutKicker} title={t.aboutTitle}><div className="grid items-center gap-10 lg:grid-cols-[1.05fr_.95fr]"><Reveal><div><p className="text-lg leading-8">{t.aboutBody}</p><p className="mt-5 leading-7 text-muted-foreground">{t.aboutBody2}</p><div className="mt-8 flex items-center gap-4 border-t border-border pt-6"><img src={images.garden} alt="Tony and Giota" width={1200} height={900} loading="lazy" className="size-20 rounded-full object-cover"/><div><h3 className="text-xl">{t.hosts}</h3><p className="mt-1 text-sm text-muted-foreground">{t.hostsNote}</p></div></div></div></Reveal><Reveal><img src={images.garden} alt={locale === "el" ? "Μεσογειακός κήπος" : "Mediterranean garden"} width={1200} height={900} loading="lazy" className="image-soft aspect-[4/3] w-full object-cover"/></Reveal></div></Section>
 
       <Section id="space" kicker={t.spaceKicker} title={t.spaceTitle} tone="muted"><div className="grid gap-5 lg:grid-cols-3">{t.rooms.map(([title, specs, text], i) => <Reveal key={title}><article className="group overflow-hidden rounded-[1.5rem] border border-border bg-card"><div className="overflow-hidden"><img src={roomImages[i]} alt={title} width={1200} height={900} loading="lazy" className="aspect-[4/3] w-full object-cover transition-transform duration-700 group-hover:scale-105"/></div><div className="p-6"><BedDouble className="mb-4 size-5 text-accent"/><h3 className="text-2xl">{title}</h3><p className="mt-2 text-xs font-semibold uppercase tracking-[0.12em] text-primary">{specs}</p><p className="mt-4 leading-7 text-muted-foreground">{text}</p></div></article></Reveal>)}</div><p className="mt-8 text-center text-sm text-muted-foreground">{t.essentials}</p></Section>
 
