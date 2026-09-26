@@ -5,7 +5,9 @@ export type { Locale, Localized };
 export const siteConfig = {
 airbnbUrl: "https://www.airbnb.gr/s/homes?c=.pi0.pk273496144_131023145409&sem_automaid=true&gad_source=1&gad_campaignid=273496144&gbraid=0AAAAADz55L1P9ZiGTuQFeB3P4KJ07t",
 instagramUrl: "#",
-phone: "[6970052618]",
+phone: "6970052618",
+email: "[HOST_EMAIL]",
+nightlyFrom: null as number | null,
 registryNumber: "00002419157",
 mapUrl:
 "https://www.openstreetmap.org/export/embed.html?bbox=23.88%2C38.20%2C24.02%2C38.30&layer=mapnik&marker=38.2236%2C23.9236",
@@ -32,6 +34,10 @@ export const gallery = [
 { src: images.living, category: "Interior", alt: { en: "Living room", el: "Καθιστικό" } },
 { src: images.outdoorRoom, category: "Views", alt: { en: "Separate garden room at sunset", el: "Το ανεξάρτητο δωμάτιο στο ηλιοβασίλεμα" } },
 ];
+
+
+
+
 
 
 
