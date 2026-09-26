@@ -33,8 +33,8 @@ export const gallery = [
 { src: images.outdoorRoom, category: "Views", alt: { en: "Separate garden room at sunset", el: "Το ανεξάρτητο δωμάτιο στο ηλιοβασίλεμα" } },
 ];
 
-export const galleryImages = gallery;
-Object.assign(images, { gallery });
+
+
 
 
 
