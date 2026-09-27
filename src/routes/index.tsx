@@ -10,7 +10,6 @@ import {
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import { supabase } from "@/integrations/supabase/client";
 import { copy, images, gallery, siteConfig, type Locale } from "@/lib/site-data";
 
 const ids = ["story", "space", "pool", "gallery", "location", "reviews", "faq"];
