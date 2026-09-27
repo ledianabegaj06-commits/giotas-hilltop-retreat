@@ -6,8 +6,8 @@ export const siteConfig = {
 airbnbUrl: "https://www.airbnb.gr/rooms/20017438?source_impression_id=p3_1790505598_P3fzrbGZWOCoKXUG",
 instagramUrl: "https://www.instagram.com/giotascountryhouse/",
 phone: "6970052618",
-email: "[HOST_EMAIL]",
-nightlyFrom: null as number | null,
+email: "",
+nightlyFrom: null,
 registryNumber: "00002419157",
 mapUrl:
 "https://www.openstreetmap.org/export/embed.html?bbox=23.88%2C38.20%2C24.02%2C38.30&layer=mapnik&marker=38.2236%2C23.9236",
