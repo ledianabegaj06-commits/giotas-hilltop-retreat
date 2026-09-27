@@ -3,8 +3,8 @@ import type { Locale, Localized } from "./types";
 export type { Locale, Localized };
 
 export const siteConfig = {
-airbnbUrl: "https://www.airbnb.gr/s/homes?c=.pi0.pk273496144_131023145409&sem_automaid=true&gad_source=1&gad_campaignid=273496144&gbraid=0AAAAADz55L1P9ZiGTuQFeB3P4KJ07t",
-instagramUrl: "#",
+airbnbUrl: "https://www.airbnb.gr/rooms/20017438?source_impression_id=p3_1790505598_P3fzrbGZWOCoKXUG",
+instagramUrl: "https://www.instagram.com/giotascountryhouse/",
 phone: "6970052618",
 email: "[HOST_EMAIL]",
 nightlyFrom: null as number | null,
